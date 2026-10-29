@@ -1,8 +1,28 @@
 from flask import Flask, render_template, request, redirect
+import os
 import sqlite3
 
 app = Flask(__name__)
-DB = "blog.db"
+DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "blog.db")
+
+
+def init_db():
+    """Crea la tabla de entradas si no existe y añade una entrada de ejemplo."""
+    con = sqlite3.connect(DB)
+    cur = con.cursor()
+    cur.execute("""CREATE TABLE IF NOT EXISTS entradas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        titulo TEXT,
+        fecha TEXT,
+        autor TEXT,
+        contenido TEXT
+    )""")
+    if cur.execute("SELECT COUNT(*) FROM entradas").fetchone()[0] == 0:
+        cur.execute("INSERT INTO entradas (titulo, fecha, autor, contenido) VALUES (?, ?, ?, ?)",
+            ("Bienvenido al blog", "2026-03-26", "Hector Quiros",
+             "Esta es una entrada de ejemplo. Entra en /admin para crear, editar o borrar entradas."))
+    con.commit()
+    con.close()
 
 
 # ---- FRONT PÚBLICO ----
@@ -79,4 +99,5 @@ def entrada_eliminar(id):
 # ---- ARRANQUE ----
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    init_db()
+    app.run(debug=os.environ.get("FLASK_DEBUG") == "1")
