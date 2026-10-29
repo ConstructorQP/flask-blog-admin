@@ -22,8 +22,8 @@ Proyecto de la asignatura *Lenguajes de Marcas* de ASIR.
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/ConstructorQP/BLOG-ADMIN
-cd BLOG-ADMIN/blog
+git clone https://github.com/ConstructorQP/flask-blog-admin
+cd flask-blog-admin/blog
 pip install flask
 python app.py
 ```
