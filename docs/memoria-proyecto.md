@@ -20,7 +20,7 @@ Utilizaremos un CSS sencillo, sin complicarnos, queremos algo funcional antes qu
 
 Gracias a estos dos lenguajes de marcado, crearemos una página web que, de momento, sin ser funcional, y a falta de base de datos, solamente nos mostrará las funciones que tendrá más adelante.
 
-🎥 Vídeo: https://drive.google.com/file/d/1vJmthYJvgtBfbNLmeUbDc6VRgNXI8HMM/view?usp=sharing
+ Vídeo: https://drive.google.com/file/d/1vJmthYJvgtBfbNLmeUbDc6VRgNXI8HMM/view?usp=sharing
 
 ## P2 — Utiliza lenguajes de marcas para la transmisión y presentación de información
 
@@ -54,17 +54,17 @@ Como bien hemos dicho antes, esto nos servirá para poder acceder a nuestra pág
 
 Volvemos a repetir que, sin nuestro lenguaje de marcas, este archivo no sería interpretable por ningún buscador, así como casi inaccesible para cualquier usuario sin conocimientos previos.
 
-🎥 Vídeo: https://drive.google.com/file/d/1lLBog5HAJEu2XNU7de364NzYt2lnRUKq/view?usp=sharing
+ Vídeo: https://drive.google.com/file/d/1lLBog5HAJEu2XNU7de364NzYt2lnRUKq/view?usp=sharing
 
 ## P3 — Accede y manipula documentos web con Python
 
 > Habla del controlador Flask y el CRUD del admin.
 >
-> 📹 VÍDEO: Crea una entrada nueva desde el admin, edítala y elimínala en tiempo real.
+>  VÍDEO: Crea una entrada nueva desde el admin, edítala y elimínala en tiempo real.
 
 **Introducción**
 
-Utilizaremos FLASK como interprete que unifique todos los recursos, gracias a éste uniremos todos los datos en una sola app de Python. 
+Utilizaremos FLASK como interprete que unifique todos los recursos, gracias a éste uniremos todos los datos en una sola app de Python.
 
 **Soluciones tecnológicas aplicadas**
 
@@ -85,7 +85,7 @@ El administrador podrá cambiar todo desde la página sin saber de programación
 
 Python, será la mente que controle todo, no sin herramientas como Flask para importar el resto de herramientas y poder abrirlas en local.
 
-🎥 Vídeo: https://drive.google.com/file/d/1dwEb7_lEDb3ferz9oOmYMzY4V0DT1Uy4/view?usp=sharing
+ Vídeo: https://drive.google.com/file/d/1dwEb7_lEDb3ferz9oOmYMzY4V0DT1Uy4/view?usp=sharing
 
 ## P4 — Gestiona información en formatos de intercambio de datos
 
@@ -120,7 +120,7 @@ Ayudará al usuario a crear las entradas modificarlas y borrarlas sin tener ni i
 
 Teniendo la base de datos en local gracias a SQLite podremos facilitar aún más las cosas.
 
-🎥 Vídeo: (https://drive.google.com/file/d/1owiL1143ukqHa0FpMhZUDVNpgmTnP-2b/view?usp=sharing)
+ Vídeo: (https://drive.google.com/file/d/1owiL1143ukqHa0FpMhZUDVNpgmTnP-2b/view?usp=sharing)
 
 ## P5 — Opera sistemas empresariales de gestión de información
 
@@ -146,4 +146,4 @@ Lector — acceder al contenido desde cualquier navegador
 La facilidad para darte a conocer, y conseguir que esto, sea una tarea sencilla.
 A continuación te dejo el mismo blog, pero poblado, como si de una página de empresa se tratara.
 
-🎥 Vídeo: (https://drive.google.com/file/d/1IUhVmncNep_EmLjw7MbZ89amHErPTbcG/view?usp=sharing)
+ Vídeo: (https://drive.google.com/file/d/1IUhVmncNep_EmLjw7MbZ89amHErPTbcG/view?usp=sharing)
